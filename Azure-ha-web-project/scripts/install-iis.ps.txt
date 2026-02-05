@@ -1,3 +1,0 @@
-install-iis.ps
-mount-storage.ps1
-firewall-config.ps1
