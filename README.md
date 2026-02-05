@@ -6,9 +6,10 @@ Tento projekt je implementací vysoce dostupné webové infrastruktury v prostř
 
 Řešení využívá N-tier architekturu s důrazem na bezpečnost (Zero Trust principy).
 
-![Diagram architektury](./diagrams/architecture.png)
 
-Klíčové komponenty:
+
+Klíčové komponenty:<img width="7690" height="8649" alt="AzureExportedTemplate" src="https://github.com/user-attachments/assets/1d708c4b-c65d-4484-9d4e-2403aa80454d" />
+
 - Load Balancer (Standard):** Distribuuje provoz a kontroluje zdraví serverů (Health Probes).
 - Virtual Machines:** Dva webové servery běžící ve Windows Server 2022, umístěné v **Availability Setu** (Fault Domains) pro zajištění SLA 99.95%.
 - Networking:**
